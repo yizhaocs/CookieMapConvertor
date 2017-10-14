@@ -35,7 +35,7 @@ public class Main {
                 if(result!= null && result.length==4) {
                     try {
                         result[0] = String.valueOf(dateToUnixTime(result[0]));
-                        bw.write("cm" + "|" + result[0] + "|" + result[1] + "|" + result[2] + "=" + result[3]);
+                        bw.write("cm" + "|" + result[0] + "|" + result[1] + "|" + result[2] + "|" + result[3]);
                         bw.newLine();
                         count++;
                     }catch (Exception e){
